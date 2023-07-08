@@ -1,4 +1,4 @@
-package com.jb.shaadiassignment.ui.theme
+package com.jb.shaadiassignment.presentation.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

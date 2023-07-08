@@ -1,4 +1,4 @@
-package com.jb.shaadiassignment.ui.theme
+package com.jb.shaadiassignment.presentation.ui.theme
 
 import android.app.Activity
 import android.os.Build

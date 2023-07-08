@@ -1,4 +1,4 @@
-package com.jb.shaadiassignment
+package com.jb.shaadiassignment.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,7 +10,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.jb.shaadiassignment.ui.theme.ShaadiAssignmentTheme
+import com.jb.shaadiassignment.presentation.ui.theme.ShaadiAssignmentTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
