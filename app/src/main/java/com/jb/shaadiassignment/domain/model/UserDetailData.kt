@@ -17,6 +17,7 @@ data class UserDetailData(
     val streetName : String,
     val city: String,
     val state: String,
+    val image : String,
     val acceptDeclinedStatus : Boolean? = null
 
 )

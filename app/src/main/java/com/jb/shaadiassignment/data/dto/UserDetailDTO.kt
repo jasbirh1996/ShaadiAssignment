@@ -1,6 +1,5 @@
 package com.jb.shaadiassignment.data.dto
 
-import com.jb.shaadiassignment.domain.model.UserDetailData
 
 data class UserDetailDTO(
     val info: Info,

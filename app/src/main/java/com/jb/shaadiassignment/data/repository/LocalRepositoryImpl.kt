@@ -15,4 +15,8 @@ class LocalRepositoryImpl @Inject constructor(private val dao: UserDao) : LocalR
     override fun getUserDetailData(): Flow<List<UserDetailData>> {
         return dao.getUserDetailData()
     }
+
+    override suspend fun updateUserStatus(status: Boolean, id: String) {
+        dao.update(status, id)
+    }
 }

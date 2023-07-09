@@ -16,8 +16,11 @@ import kotlinx.coroutines.flow.Flow
 interface UserDao {
 
     @Insert(onConflict = REPLACE)
-    suspend fun insertUserDetail(userData : List<UserDetailData>?)
+    suspend fun insertUserDetail(userData: List<UserDetailData>?)
 
     @Query("SELECT * FROM UserDetailData")
     fun getUserDetailData(): Flow<List<UserDetailData>>
+
+    @Query("UPDATE UserDetailData SET acceptDeclinedStatus = :status WHERE id = :id")
+    suspend fun update(status: Boolean, id: String)
 }

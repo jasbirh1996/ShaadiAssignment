@@ -7,4 +7,5 @@ interface LocalRepository {
 
     suspend fun insertUserData(data : List<UserDetailData>)
     fun getUserDetailData():Flow<List<UserDetailData>>
+   suspend fun updateUserStatus(status : Boolean, id : String)
 }
