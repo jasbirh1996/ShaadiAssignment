@@ -135,7 +135,7 @@ fun AcceptDeclineScreen(nav: NavController, viewModel: UserViewModel = hiltViewM
                                         },
                                         colors = ButtonDefaults.buttonColors(Constants.BUTTON_ACCEPT_COLOR)
                                     ) {
-                                        Text(text = "Accept", color = Color.White)
+                                        Text(text = "Member Accepted", color = Color.White)
 
 
                                     }
@@ -153,7 +153,7 @@ fun AcceptDeclineScreen(nav: NavController, viewModel: UserViewModel = hiltViewM
                                         },
                                         colors = ButtonDefaults.buttonColors(Color.Gray),
                                     ) {
-                                        Text(text = "Decline", color = Color.White)
+                                        Text(text = "Member Declined", color = Color.White)
                                     }
                                 }
 
